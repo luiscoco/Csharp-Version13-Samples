@@ -35,7 +35,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 3. P200_EscapeSequence
+### P200_EscapeSequence
 - **What’s new**: New escape sequence for the ESC character (U+001B).
 - **Example**:
   ```csharp
@@ -45,7 +45,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 4. P201_MethodGroupNaturalType
+### P201_MethodGroupNaturalType
 - **What’s new**: Overload resolution for method groups is improved. Inapplicable overloads (wrong arity, constraint failures) are pruned earlier.
 - **Example**:
   ```csharp
@@ -59,7 +59,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 5. P202_ImplicitIndexersInObjectInitializers
+### P202_ImplicitIndexersInObjectInitializers
 - **What’s new**: Index initializers now support the “from the end” operator (`^`) inside object/collection initializers.
 - **Example**:
   ```csharp
@@ -69,7 +69,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 6. P203_RefUnsafeInAsyncIterators
+### P203_RefUnsafeInAsyncIterators
 - **What’s new**: `ref` locals, `ref struct` types, and `unsafe` contexts are now allowed in `async` methods and iterators, with restrictions (they can’t cross `await`/`yield` boundaries).
 - **Example**:
   ```csharp
