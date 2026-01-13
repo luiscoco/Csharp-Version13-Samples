@@ -5,9 +5,9 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-## 🚀 New Features in C# 13
+## New Features in C# 13
 
-### 1. `params` Collections (`P194_ParamsCollections`)
+### P198_ParamsCollections
 - **What’s new**: The `params` modifier can now be applied to more collection types, not only arrays.
 - **Example**:
   ```csharp
@@ -22,7 +22,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 2. New Lock Object (`P195_NewLockObject`)
+### P199_NewLockObject
 - **What’s new**: Introduces `System.Threading.Lock`. When used in a `lock` statement, the compiler emits IL that leverages the new lock type instead of `Monitor`.
 - **Example**:
   ```csharp
@@ -35,7 +35,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 3. Escape Sequence `\e` (`P196_EscapeSequenceE`)
+### 3. P200_EscapeSequence
 - **What’s new**: New escape sequence for the ESC character (U+001B).
 - **Example**:
   ```csharp
@@ -45,7 +45,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 4. Method Group Natural Type Improvements (`P197_MethodGroupNaturalType`)
+### 4. P201_MethodGroupNaturalType
 - **What’s new**: Overload resolution for method groups is improved. Inapplicable overloads (wrong arity, constraint failures) are pruned earlier.
 - **Example**:
   ```csharp
@@ -59,7 +59,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 5. Implicit Indexers in Object Initializers (`P198_ImplicitIndexersInObjectInitializers`)
+### 5. P202_ImplicitIndexersInObjectInitializers
 - **What’s new**: Index initializers now support the “from the end” operator (`^`) inside object/collection initializers.
 - **Example**:
   ```csharp
@@ -69,7 +69,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 6. Ref / Unsafe in Async and Iterators (`P199_RefUnsafeInAsyncIterators`)
+### 6. P203_RefUnsafeInAsyncIterators
 - **What’s new**: `ref` locals, `ref struct` types, and `unsafe` contexts are now allowed in `async` methods and iterators, with restrictions (they can’t cross `await`/`yield` boundaries).
 - **Example**:
   ```csharp
@@ -84,7 +84,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 7. Allows Ref Struct in Generics (`P200_AllowsRefStruct_Generic`)
+### P204_AllowsRefStruct_Generic
 - **What’s new**: New constraint `where T : allows ref struct` lets generics accept `ref struct` types.
 - **Example**:
   ```csharp
@@ -98,7 +98,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 8. Ref Structs Implement Interfaces (`P201_RefStructInterfaces`)
+### P205_RefStructInterfaces
 - **What’s new**: `ref struct` types can now implement interfaces.
 - **Example**:
   ```csharp
@@ -112,7 +112,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 9. Partial Properties and Indexers (`P202_PartialPropertiesIndexers`)
+### P206_PartialPropertiesIndexers
 - **What’s new**: Like partial classes and methods, you can now declare **partial properties and indexers**.
 - **Example**:
   ```csharp
@@ -131,7 +131,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 10. Overload Resolution Priority (`P203_OverloadResolutionPriority`)
+### P207_OverloadResolutionPriority
 - **What’s new**: Library authors can control which overloads the compiler prefers during resolution.
 - **Example**:
   ```csharp
@@ -148,7 +148,7 @@ Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
-### 11. `field` Keyword (Preview) (`P204_FieldKeyword_Preview`)
+### P208_FieldKeyword_Preview
 - **What’s new**: Preview feature allowing `field` keyword in property accessors to directly refer to the compiler-generated backing field.
 - **Example**:
   ```csharp
