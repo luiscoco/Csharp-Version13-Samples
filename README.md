@@ -1,7 +1,7 @@
-# C# 13 Features – Sample Projects
+# C# 13 Features - Sample Projects
 
 This repository contains hands-on examples of the new features introduced in **C# version 13** (shipped with .NET 9).  
-Each project (`P194`, `P195`, …) illustrates one feature with runnable code.
+Each project P198 - P208 illustrates one feature with runnable code.
 
 ---
 
@@ -164,23 +164,23 @@ Each project (`P194`, `P195`, …) illustrates one feature with runnable code.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
-- `P194_ParamsCollections` → params collections  
-- `P195_NewLockObject` → new `Lock` type  
-- `P196_EscapeSequenceE` → escape sequence `\e`  
-- `P197_MethodGroupNaturalType` → method group resolution  
-- `P198_ImplicitIndexersInObjectInitializers` → implicit indexers  
-- `P199_RefUnsafeInAsyncIterators` → ref/unsafe in async/iterators  
-- `P200_AllowsRefStruct_Generic` → allows ref struct in generics  
-- `P201_RefStructInterfaces` → ref struct interfaces  
-- `P202_PartialPropertiesIndexers` → partial properties/indexers  
-- `P203_OverloadResolutionPriority` → overload resolution priority  
-- `P204_FieldKeyword_Preview` → field keyword (preview)  
+- `P198_ParamsCollections` → params collections  
+- `P199_NewLockObject` → new `Lock` type  
+- `P200_EscapeSequenceE` → escape sequence `\e`  
+- `P201_MethodGroupNaturalType` → method group resolution  
+- `P202_ImplicitIndexersInObjectInitializers` → implicit indexers  
+- `P203_RefUnsafeInAsyncIterators` → ref/unsafe in async/iterators  
+- `P204_AllowsRefStruct_Generic` → allows ref struct in generics  
+- `P205_RefStructInterfaces` → ref struct interfaces  
+- `P206_PartialPropertiesIndexers` → partial properties/indexers  
+- `P207_OverloadResolutionPriority` → overload resolution priority  
+- `P208_FieldKeyword_Preview` → field keyword (preview)  
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - .NET 9 SDK  
 - C# 13 compiler enabled  
@@ -193,7 +193,7 @@ dotnet run
 
 ---
 
-## 📖 References
+## References
 
 - [What’s new in C# 13 – Microsoft Docs](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-13)  
 - [C# 13 Preview Features – .NET Blog](https://devblogs.microsoft.com/dotnet/csharp-13-explore-preview-features/)  
